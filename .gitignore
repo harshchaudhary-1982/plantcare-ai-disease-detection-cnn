@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and generated splits
+data/raw/
+data/processed/
+!data/README.md
+
+# Trained model artifacts (can be large / dataset-specific)
+models/*.keras
+models/*.h5
+models/*.weights.h5
+models/class_names.json
+models/training_metadata.json
+
+# Generated evaluation/training outputs
+results/*
+!results/README.md
+
+# Notebook checkpoints and logs
+.ipynb_checkpoints/
+*.log

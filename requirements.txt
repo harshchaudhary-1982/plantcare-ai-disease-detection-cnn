@@ -1,0 +1,8 @@
+# Suggested environment: Python 3.11 (64-bit). TensorFlow wheels vary by OS/Python version.
+tensorflow==2.16.1
+numpy==1.26.4
+Pillow==10.4.0
+scikit-learn==1.5.2
+matplotlib==3.9.2
+streamlit==1.39.0
+pytest==8.3.3
